@@ -9,6 +9,7 @@ import CounterScreenState from './src/screens/CounterScreenWithState';
 import colorScreen from './src/screens/colorScreen';
 import SquareScreen from './src/screens/SquareScreen';
 import TextScreen from './src/screens/textScreen';
+import BoxScreen from './src/screens/BoxScreen';
 
 const navigator = createStackNavigator(
   {// paginas
@@ -20,7 +21,8 @@ const navigator = createStackNavigator(
     Color:colorScreen,
     Square:SquareScreen,
     CounterState:CounterScreenState,
-    Text:TextScreen
+    Text:TextScreen,
+    Box:BoxScreen
   },
   {// rota inicial!
     initialRouteName: 'Home',
